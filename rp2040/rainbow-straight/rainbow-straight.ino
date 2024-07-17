@@ -80,5 +80,9 @@ void loop() {
     currentIndex++;
 
     delay(200);
+  } else {
+    currentIndex = 0;
+    delay(10000);
+    strip.clear();
   }
 }
