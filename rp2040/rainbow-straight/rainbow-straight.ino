@@ -9,6 +9,7 @@
 #include <cmath>
 
 int8_t NEO_PIXELS_COUNT = 25;
+int8_t NEO_PIXELS_BRIGHTNESS = 5;   // 0=minimum (off), 255=brightest.
 int8_t PIN_NUMBER = 1;
 
 // Create the neopixel strip with the built in definitions NUM_NEOPIXEL and PIN_NEOPIXEL
@@ -44,7 +45,7 @@ void setup() {
   Serial.begin(115200);
 
   strip.begin();
-  strip.setBrightness(5);
+  strip.setBrightness(NEO_PIXELS_BRIGHTNESS);
   strip.show();  // Initialize all pixels to 'off'
   delay(500);
 
