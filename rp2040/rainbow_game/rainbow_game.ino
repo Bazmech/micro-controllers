@@ -1,8 +1,25 @@
 /**
 
 
-COMPONENTS:
-1 x rp2040 plus
+Components:
+1 x waveshare rp2040 plus
+NeoKey 5x5 Ortho
+USB-C power supply
+cables
+
+
+Useful links:
+NeoKey 5x6 Ortho:
+Broken down to 5x5
+https://thepihut.com/products/neokey-5x6-ortho-snap-apart-mechanical-key-switches-w-neopixel-for-mx-compatible-switches
+https://www.adafruit.com/product/5157
+
+Micro Controller: RP2040 Plus
+https://www.waveshare.com/wiki/RP2040-Plus
+https://thepihut.com/products/rp2040-plus
+
+NeoPixel:
+https://adafruit.github.io/Adafruit_NeoPixel/html/class_adafruit___neo_pixel.html
 
 
 **/
